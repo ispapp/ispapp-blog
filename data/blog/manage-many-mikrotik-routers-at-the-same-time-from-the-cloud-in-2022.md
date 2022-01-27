@@ -1,9 +1,9 @@
 ---
-title: manage mikrotik router
+title: Manage Many MikroTik Routers at the Same Time from the Cloud in 2022
 date: '2022-01-26'
-tags: ['mikrotik', 'router']
+tags: ['MikroTik', 'Cloud Management', 'NMS', 'Network Automation', 'Enterprise', 'Controller', 'SD-WAN', 'SDN', 'Service provider', 'Bulk configuration', 'MikroTik software']
 draft: false
-summary: manage mikrotik router
+summary: In 2022 the best way to manage, performance monitor, control, and automate many MikroTik routers from the cloud is by using ISPApp. ISPApp is a single central dashboard that allows ISPs and large scale network operators to take full control over their networks.
 images: []
 layout: PostLayout
 ---
