@@ -97,22 +97,4 @@ module.exports = withBundleAnalyzer({
 
     return config
   },
-  rewrites() {
-    return {
-      beforeFiles: [
-        // if the host is `ispapp.com`,
-        // this rewrite will be applied
-        {
-          source: '/:path*',
-          has: [
-            {
-              type: 'host',
-              value: 'blog.ispapp.com',
-            },
-          ],
-          destination: '/blog/:path*',
-        },
-      ],
-    }
-  },
 })
