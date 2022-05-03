@@ -1,4 +1,4 @@
-![tailwind-nextjs-banner](/public/static/images/twitter-card.png)
+![tailwind-nextjs-banner](/public/ispapp/static/images/twitter-card.png)
 
 # Tailwind Nextjs Starter Blog
 
@@ -31,7 +31,7 @@ Feature request? Check the past discussions to see if it has been brought up pre
 - [irvin.dev](https://www.irvin.dev/) - Irvin Lin's personal site. Added YouTube embedding.
 - [the all JavaScript Blog](https://the-all-javascript-blog.vercel.app/) - a JavaScript enlightenment blog uses this
 - [KirillSo.com](https://www.kirillso.com/) - Personal blog & website.
-- [DevBoy Blog](https://devboy.vercel.app/) - M.Reza's personal blog 
+- [DevBoy Blog](https://devboy.vercel.app/) - M.Reza's personal blog
 - [slightlysharpe.com](https://slightlysharpe.com) - [Tincre's](https://tincre.com) main company blog
 - [blog.b00st.com](https://blog.b00st.com) - [b00st.com's](https://b00st.com) main music promotion blog
 
@@ -182,7 +182,7 @@ lastmod: '2021-01-18'
 tags: ['next-js', 'tailwind', 'guide']
 draft: false
 summary: 'Looking for a performant, out of the box template, with all the best in web technology to support your blogging needs? Checkout the Tailwind Nextjs Starter Blog template.'
-images: ['/static/images/canada/mountains.jpg', '/static/images/canada/toronto.jpg']
+images: ['/ispapp/static/images/canada/mountains.jpg', '/ispapp/static/images/canada/toronto.jpg']
 authors: ['default', 'sparrowhawk']
 layout: PostLayout
 ---

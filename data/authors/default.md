@@ -1,6 +1,6 @@
 ---
 name: David Dean
-avatar: /static/images/avatar.png
+avatar: /ispapp/static/images/avatar.png
 occupation: Founder
 company: Ispapp
 email: hello@ispapp.co
