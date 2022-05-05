@@ -80,6 +80,7 @@ export const BlogSEO = ({
   url,
   images = [],
   canonicalUrl,
+  thumbnailImage,
 }) => {
   const router = useRouter()
   const publishedAt = new Date(date).toISOString()
@@ -94,7 +95,7 @@ export const BlogSEO = ({
   const featuredImages = imagesArr.map((img) => {
     return {
       '@type': 'ImageObject',
-      url: `${siteMetadata.siteUrl}${img}`,
+      url: `${siteMetadata.url}${img}`,
     }
   })
 
@@ -136,7 +137,7 @@ export const BlogSEO = ({
     description: summary,
   }
 
-  const twImageUrl = featuredImages[0].url
+  const twImageUrl = thumbnailImage ? thumbnailImage : featuredImages[0].url
 
   return (
     <>
