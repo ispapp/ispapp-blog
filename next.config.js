@@ -53,7 +53,7 @@ const securityHeaders = [
 ]
 
 module.exports = withBundleAnalyzer({
-  basePath: '/ispapp',
+  basePath: '/blog',
   reactStrictMode: true,
   pageExtensions: ['js', 'jsx', 'md', 'mdx'],
   eslint: {
@@ -84,5 +84,15 @@ module.exports = withBundleAnalyzer({
     }
 
     return config
+  },
+  async redirects() {
+    return [
+      {
+        source: '/',
+        destination: 'https://ispapp.co/',
+        permanent: true,
+        basePath: false,
+      },
+    ]
   },
 })
