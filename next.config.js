@@ -15,6 +15,7 @@ const ContentSecurityPolicy = `
 `
 
 const securityHeaders = [
+  { key: 'Access-Control-Allow-Origin', value: 'https://ispapp.co' },
   // https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP
   {
     key: 'Content-Security-Policy',
